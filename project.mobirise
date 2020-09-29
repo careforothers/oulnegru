@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Oul negru și zarul rotund",
+    "name": "Oul negru și zarul rotund-clone-clone",
     "currentPage": "index.html",
     "theme": {
       "name": "conferencem4",
@@ -51,9 +51,20 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 19,
+    "uniqCompNum": 33,
     "versionPublish": "5.1.4",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": false,
+    "cssOptimize": false,
+    "lazyLoad": false,
+    "lazyType": "nothing",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "pwa-switcher": false
   },
   "pages": {
     "index.html": {
@@ -458,7 +469,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobiri.se\">\n                        <img src=\"@PROJECT_PATH@/assets/images/1.-copilul-din-mijlocul-lumii-1-128x128.jpeg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Mobirise</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown\"><a class=\"nav-link link dropdown-toggle text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Zarul rotund și oul negru</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-primary\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a></div></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a>\n                </div>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3\" max=\"8\" step=\"0.1\" value=\"3\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\">\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobiri.se\">\n                        <img src=\"@PROJECT_PATH@/assets/images/1.-copilul-din-mijlocul-lumii-1-128x128.jpeg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Mobirise</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown\"><a class=\"nav-link link dropdown-toggle text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">&nbsp;Zarul rotund și oul negru</a><div class=\"dropdown-menu\"><a class=\"dropdown-item text-primary\" href=\"index.html#content4-3\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Preambul (Prina paranteză)</a><a class=\"dropdown-item text-primary\" href=\"index.html#header3-1\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Copilul din mijlocul lumii</a><a class=\"dropdown-item text-primary\" href=\"index.html#content4-4\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Copilul neînțeles</a><a class=\"dropdown-item text-primary\" href=\"index.html#header3-t\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Copilul metamorfoză</a><a class=\"dropdown-item text-primary\" href=\"index.html#header3-u\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Copilul înălbit</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a><a class=\"dropdown-item text-primary\" href=\"#\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">New Item</a></div></li></ul>\n                <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                        <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n                    </a>\n                </div>\n                <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        Download Now</a>\n                </div>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_anchor": "menu1-0",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
@@ -493,11 +504,106 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"9\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/desen-1-2000x1178.jpeg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-4\"><b>Preambul (Prima </b>paranteză<b>)</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\">Prin urmare, într-o noapte foarte lungă a unei foarte lungi ierni… s-a rupt o cracă. Și odată cu ea s-a prăvălit din adânca lui adormire un înţelept cu scufie şi barbă albă. Barba era mai lungă decât toate nopțile și toate iernile întâlnite prin locurile acestea. Dacă n-ar fi avut-o înfăşurată de trei ori în jurul gâtului, atingând cu ea pământul, ar fi prins rădăcini.\n<div>Şi cum spuneam, din înălţimea pomului în care hibernase ani la rând, înţeleptul s-a trezit plutind prin aer ca un fulg… legănându-se suav dintr-un colţ al peisajului în altul. O splendoare!...\n</div><div>Asta până când a dat cu nasul de pământ. Norul de praf iscat în urma impactului îl făcu pierdut din vedere. Puteai doar să-l bănuiești scuturându-se cu sârg şi hotărâre… dând din mâini, dând din picioare… consumând toate loviturile de palmă pe turul nădragilor. Dar tot nu reuşi să alunge colbul, care devenea cu trecerea timpului tot mai împovărător. În schimb, văzând câtă risipă gestuală este în stare să facă, înţeleptul se opri brusc; se gândi şi se hotărî să nu mai săvârşească decât gesturi care au o însemnătate cu adevărat colosală. Pentru asta… \n</div><div>Se concentră. […]\n</div><div>Primul gest nu-i ieşi prea bine. Părea mai degrabă o schiţă… o încercare patetică de amator; însă, profitând de un vânt prielnic, îl săvârși până la urmă, proptindu-se cu tot corpul burduhănos de suprafața ovală a pământului. Al doilea gest fu mai dibaci scornit; cu el îşi făcu loc de-ntors sub bolta cerului. Iar cu al treilea, cel mai iscusit dintre toate, deschise o paranteză largă, în care se apucă să arunce, sacadat şi molcom, cuvânt peste cuvânt, şiragul următor:\n</div><div>(„În paranteza aceasta ar trebui să pun mai multe lucruri la grămadă... Ar trebui să pregătesc un preambul, în care să spun câte ceva despre cele ce vor urma a fi spuse mai departe… să articulez o iotă despre poveştile care vor fi povestite… fără să le uit însă pe cele pierdute cine știe pe unde… rătăcite sau distruse cu bună ştiinţă. Poate ar fi înţelept să întocmesc o poliloghie, care să explice tuturor de ce unele istorii trebuie să dispară de pe faţa pământului… pe când altele nu.\n</div><div>Totodată, s-ar cuveni să se stabilească aici, o dată pentru totdeauna, ce se cade să fie consemnat în acest tip de paranteză – şi ce nu se cade, vreodată, sub nicio formă.\n</div><div>Ar fi bine să se lămurească de ce ajung unele texte să fie puse în paranteză. Sunt ele predestinate?... Au o calitate aparte care le face să fie potrivite pentru o asemenea sarcină? Sau au ajuns să joace acest rol doar pentru că celelalte texte se dovedesc atât de intransigente, încât nu acceptă nici în ruptul capului să fie prinse între anumite limite… \n</div><div>S-ar cuveni să se facă o investigație serioasă în ce privește necesitatea punerii între paranteze. În definitiv, de ce avem nevoie de texte explicative? – Este această nevoie absolut necesară? – De unde vine ea? – Şi de ce, precum în cazul de faţă: în ansamblul unor texte care pun în discuție fericirile umane, să fie utilă punerea în paranteză a unor cuvinte, fraze şi sensuri de-a valma, întrerupând astfel șirul narativ? Nu se creează premisele unei stări de angoasă, splin, ori poate chiar de adâncă nefericire?...\n</div><div>Tot aici, ar fi de folos să se lămurească de ce textele explicative nu pot fi ignorate. Sau evitate. Cum de reușesc ele să expliciteze ceva? De ce un text nu se poate susţine singur până la capăt? Pentru a ajunge la sensul său integral, de ce are nevoie de un alt text care să-l completeze?... Câte texte care susţin alte texte sunt necesare pentru a lămuri o chestiune de „fericire”?... \n</div><div>Un text îmbrățișând un alt text – o foaie de ceapă înconjurând protector o altă foaie de ceapă – unde ne duc toate acestea? Putem fi dezamăgiţi că nu găsim niciun miez, nicio profunzime practică. Şi atunci, de ce să mai punem strat peste strat, dacă nu acoperim nimic la centru?... De ce avem nevoie de atâtea texte care să facă referire la alte texte… şi acestea la altele... şi la altele... şi tot aşa... la infinit. Tocmai datorită acestei provocări, ar trebui explicată necesitatea parantezelor explicative; şi, personal, cred că această explicitare s-ar cuveni explicată tot prin intermediul unei paranteze explicative. Ea este, până la urmă, cea mai potrivită pentru o atare sarcină. Asta până va sosi clipa în care se va găsi paranteza capabilă să se explice singură pe sine: paranteza ultimativă.”)\n</div><div>După ce spuse toate acestea, înţeleptul se sfii dintr-odată. Căută un loc întunecos unde să se ascundă, dar pentru că nu găsi nimic prin preajmă, se strecură ca un pește în interiorul parantezei. Mulțumit de condițiile pe care le găsi aici, închise paranteza în urma lui cu un gest distins, plin de eleganţă; după care se apucă să împletească un cuib pentru o nouă hibernare.  \n</div><div><br></div></h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"9\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/desen-1-2000x1178.jpeg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-4\"><b>Preambul (Prima </b>paranteză<b>)</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\">Prin urmare, într-o noapte foarte lungă a unei foarte lungi ierni… s-a rupt o cracă. Și odată cu ea s-a prăvălit din adânca lui adormire un înţelept cu scufie şi barbă albă. Barba era mai lungă decât toate nopțile și toate iernile întâlnite prin locurile acestea. Dacă n-ar fi avut-o înfăşurată de trei ori în jurul gâtului, atingând cu ea pământul, ar fi prins rădăcini.\n<div>Şi cum spuneam, din înălţimea pomului în care hibernase ani la rând, înţeleptul s-a trezit plutind prin aer ca un fulg… legănându-se suav dintr-un colţ al peisajului în altul. O splendoare!...\n</div><div>Asta până când a dat cu nasul de pământ. Norul de praf iscat în urma impactului îl făcu pierdut din vedere. Puteai doar să-l bănuiești scuturându-se cu sârg şi hotărâre… dând din mâini, dând din picioare… consumând toate loviturile de palmă pe turul nădragilor. Dar tot nu reuşi să alunge colbul, care devenea cu trecerea timpului tot mai împovărător. În schimb, văzând câtă risipă gestuală este în stare să facă, înţeleptul se opri brusc; se gândi şi se hotărî să nu mai săvârşească decât gesturi care au o însemnătate cu adevărat colosală. Pentru asta… \n</div><div>Se concentră. […]\n</div><div>Primul gest nu-i ieşi prea bine. Părea mai degrabă o schiţă… o încercare patetică de amator; însă, profitând de un vânt prielnic, îl săvârși până la urmă, proptindu-se cu tot corpul burduhănos de suprafața ovală a pământului. Al doilea gest fu mai dibaci scornit; cu el îşi făcu loc de-ntors sub bolta cerului. Iar cu al treilea, cel mai iscusit dintre toate, deschise o paranteză largă, în care se apucă să arunce, sacadat şi molcom, cuvânt peste cuvânt, şiragul următor:\n</div><div>(„În paranteza aceasta ar trebui să pun mai multe lucruri la grămadă... Ar trebui să pregătesc un preambul, în care să spun câte ceva despre cele ce vor urma a fi spuse mai departe… să articulez o iotă despre poveştile care vor fi povestite… fără să le uit însă pe cele pierdute cine știe pe unde… rătăcite sau distruse cu bună ştiinţă. Poate ar fi înţelept să întocmesc o poliloghie, care să explice tuturor de ce unele istorii trebuie să dispară de pe faţa pământului… pe când altele nu.\n</div><div>Totodată, s-ar cuveni să se stabilească aici, o dată pentru totdeauna, ce se cade să fie consemnat în acest tip de paranteză – şi ce nu se cade, vreodată, sub nicio formă.\n</div><div>Ar fi bine să se lămurească de ce ajung unele texte să fie puse în paranteză. Sunt ele predestinate?... Au o calitate aparte care le face să fie potrivite pentru o asemenea sarcină? Sau au ajuns să joace acest rol doar pentru că celelalte texte se dovedesc atât de intransigente, încât nu acceptă nici în ruptul capului să fie prinse între anumite limite… \n</div><div>S-ar cuveni să se facă o investigație serioasă în ce privește necesitatea punerii între paranteze. În definitiv, de ce avem nevoie de texte explicative? – Este această nevoie absolut necesară? – De unde vine ea? – Şi de ce, precum în cazul de faţă: în ansamblul unor texte care pun în discuție fericirile umane, să fie utilă punerea în paranteză a unor cuvinte, fraze şi sensuri de-a valma, întrerupând astfel șirul narativ? Nu se creează premisele unei stări de angoasă, splin, ori poate chiar de adâncă nefericire?...\n</div><div>Tot aici, ar fi de folos să se lămurească de ce textele explicative nu pot fi ignorate. Sau evitate. Cum de reușesc ele să expliciteze ceva? De ce un text nu se poate susţine singur până la capăt? Pentru a ajunge la sensul său integral, de ce are nevoie de un alt text care să-l completeze?... Câte texte care susţin alte texte sunt necesare pentru a lămuri o chestiune de „fericire”?... \n</div><div>Un text îmbrățișând un alt text – o foaie de ceapă înconjurând protector o altă foaie de ceapă – unde ne duc toate acestea? Putem fi dezamăgiţi că nu găsim niciun miez, nicio profunzime practică. Şi atunci, de ce să mai punem strat peste strat, dacă nu acoperim nimic la centru?... De ce avem nevoie de atâtea texte care să facă referire la alte texte… şi acestea la altele... şi la altele... şi tot aşa... la infinit. Tocmai datorită acestei provocări, ar trebui explicată necesitatea parantezelor explicative; şi, personal, cred că această explicitare s-ar cuveni explicată tot prin intermediul unei paranteze explicative. Ea este, până la urmă, cea mai potrivită pentru o atare sarcină. Asta până va sosi clipa în care se va găsi paranteza capabilă să se explice singură pe sine: paranteza ultimativă.”)\n</div><div>După ce spuse toate acestea, înţeleptul se sfii dintr-odată. Căută un loc întunecos unde să se ascundă, dar pentru că nu găsi nimic prin preajmă, se strecură ca un pește în interiorul parantezei. Mulțumit de condițiile pe care le găsi aici, închise paranteza în urma lui cu un gest distins, plin de eleganţă; după care se apucă să împletească un cuib pentru o nouă hibernare.  \n</div><div><br></div></h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content4-3",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "sbV2ygZZQW",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background": "linear-gradient(0deg, @color2, @bg-value)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "a": {
+              "text-align": "center"
+            },
+            "p": {
+              "color": "#0a0a0a",
+              "text-align": "center"
+            },
+            "span": {
+              "font-size": "2rem"
+            },
+            ".mbr-iconfont-social": {
+              "font-size": "20px",
+              "width": "44px",
+              "padding-top": "6px",
+              "display": "inline-block",
+              "line-height": "38px",
+              "border-radius": "50%"
+            },
+            ".socicon-twitter": {
+              "color": "#4da7de"
+            },
+            ".socicon-facebook": {
+              "color": "#3e5b98"
+            },
+            ".socicon-googleplus": {
+              "color": "#dd4b39"
+            },
+            ".socicon-instagram": {
+              "color": "#3f729b"
+            },
+            ".social-list": {
+              "a:focus": {
+                "text-decoration": "none"
+              }
+            },
+            ".text-copyright": {
+              "width": "100%"
+            },
+            ".img-logo-footer": {
+              "margin-right": "1rem",
+              "max-width": "5rem"
+            },
+            ".text-logo-footer": {
+              "display": "inline-block",
+              "vertical-align": "middle"
+            },
+            ".logo-footer": {
+              "line-height": "normal"
+            },
+            ".copyright": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center"
+            },
+            ".social-btns": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "-webkit-justify-content": "center",
+              "justify-content": "center"
+            },
+            ".media-container-row": {
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "a": {
+                "margin": "0 1rem"
+              }
+            },
+            "P": {
+              "text-align": "left",
+              "color": "#888888"
+            }
+          },
+          "_name": "extSocialButtons1",
+          "_customHTML": "<section class=\"extSocialButtons\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" plugins=\"SocialLikes\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\n        <select title=\"Icons count\" name=\"socialCount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n            <option value=\"7\">7</option>\n            <option value=\"8\">8</option>\n            <option value=\"9\">9</option>\n            <option value=\"10\">10</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=E0Pa8tYo94U\">\n        </fieldset>\n        <input type=\"color\" title=\"color2\" name=\"color2\" condition=\"bg.type=='color'\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            \n                <span mbr-icon class=\"px-2 mbr-iconfont mbr-iconfont-social li_sound\" style=\"font-size: 20px; color: rgb(228, 63, 63); fill: rgb(228, 63, 63);\"></span>\n                <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\"><a href=\"https://twitter.com/mobirise\" target=\"_blank\"></a><br>Ascultă <b>Preambul (Prima paranteză) </b>aici</p>\n            \n            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\" mbr-if=\"socialCount>1\">\n                <span mbr-icon class=\"px-2 mbr-iconfont mbr-iconfont-social sli-social-soundcloud\" style=\"font-size: 40px;\"></span>\n                <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Follow on Facebook</p>\n            </a>\n            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\" mbr-if=\"socialCount>2\">\n                <span mbr-icon class=\"px-2 mbr-iconfont mbr-iconfont-social sli-social-soundcloud\" style=\"font-size: 40px;\"></span>\n                <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Follow on Google</p>\n            </a>\n            <a href=\"https://instagram.com/mobirise\" target=\"_blank\" mbr-if=\"socialCount>3\">\n                <span mbr-icon class=\"px-2 mbr-iconfont mbr-iconfont-social sli-social-soundcloud\" style=\"font-size: 40px;\"></span>\n                <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Follow on Instagram</p>\n            </a>\n            <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\" mbr-if=\"socialCount>4\">\n            <span mbr-icon class=\"px-2 mbr-iconfont mbr-iconfont-social sli-social-soundcloud\" style=\"font-size: 40px;\"></span>\n            <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Follow on Youtube</p>\n        </a>\n            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\" mbr-if=\"socialCount>5\">\n                <span mbr-icon class=\"px-2 socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Follow on Behance</p>\n            </a>\n            <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\" mbr-if=\"socialCount>6\">\n            <span mbr-icon class=\"px-2 socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n            <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Follow on Youtube</p>\n            </a>\n            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\" mbr-if=\"socialCount>7\">\n                <span mbr-icon class=\"px-2 socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Follow on Behance</p>\n            </a>\n                <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\" mbr-if=\"socialCount>8\">\n                <span mbr-icon class=\"px-2 socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Follow on Youtube</p>\n            </a>\n            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\" mbr-if=\"socialCount>9\">\n                <span mbr-icon class=\"px-2 socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Follow on Behance</p>\n            </a>\n        </div>\n    </div>\n</section>",
+          "_cid": "sbYv6ZNGzl",
+          "_anchor": "extSocialButtons1-k",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -575,6 +681,119 @@
           "_params": {}
         },
         {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "overflow-x": "hidden !important",
+            "& when not (@fullScreen)": {
+              "&, .scroll-wrapper": {
+                "padding-top": "(@paddingTop * 15px)",
+                "padding-bottom": "(@paddingBottom * 15px)"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#283742",
+              "span": {
+                "color": "@primaryColor"
+              },
+              "text-align": "right"
+            },
+            ".mbr-text": {
+              "color": "#888888",
+              "letter-spacing": "5px",
+              "font-weight": "100",
+              "text-align": "right"
+            },
+            ".scroll-wrapper": {
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background-position": "50% 50%",
+              "background-size": "cover",
+              "position": "absolute",
+              "background-repeat": "repeat",
+              "z-index": "0",
+              "-webkit-animation-duration": "~\"@{scrollTime}s\" !important",
+              "animation-duration": "~\"@{scrollTime}s\"",
+              "& when (@bg-type = 'color')": {
+                "background-color": "@bg-value"
+              },
+              "& when (@bg-type = 'image')": {
+                "background-image": "url(@bg-value)",
+                "& when (@scrollBg)": {
+                  "-webkit-animation": "scroll-wrapper linear infinite",
+                  "-moz-animation": "scroll-wrapper linear infinite",
+                  "-o-animation": "scroll-wrapper linear infinite",
+                  "animation": "scroll-wrapper linear infinite",
+                  "-webkit-transform": "translateZ(0)",
+                  "transform": "translateZ(0)"
+                }
+              },
+              "&.second": {
+                "left": "~\"calc(100% - 1px)\""
+              }
+            },
+            ".mbr-overlay": {
+              "z-index": "1"
+            },
+            ".block-content": {
+              "z-index": "2"
+            },
+            "@keyframes scroll-wrapper": {
+              "0%": {
+                "-webkit-transform": "translateX(0)",
+                "transform": "translateX(0)"
+              },
+              "100%": {
+                "-webkit-transform": "translateX(-100%)",
+                "transform": "translateX(-100%)"
+              }
+            },
+            "@-webkit-keyframes scroll-wrapper": {
+              "0%": {
+                "-webkit-transform": "translateX(0)",
+                "transform": "translateX(0)"
+              },
+              "100%": {
+                "-webkit-transform": "translateX(-100%)",
+                "transform": "translateX(-100%)"
+              }
+            },
+            "@-moz-keyframes scroll-wrapper": {
+              "0%": {
+                "-webkit-transform": "translateX(0)",
+                "transform": "translateX(0)"
+              },
+              "100%": {
+                "-webkit-transform": "translateX(-100%)",
+                "transform": "translateX(-100%)"
+              }
+            },
+            "@-o-keyframes scroll-wrapper": {
+              "0%": {
+                "-webkit-transform": "translateX(0)",
+                "transform": "translateX(0)"
+              },
+              "100%": {
+                "-webkit-transform": "translateX(-100%)",
+                "transform": "translateX(-100%)"
+              }
+            },
+            ".mbr-text DIV": {
+              "text-align": "right"
+            }
+          },
+          "_name": "extHeader4",
+          "_customHTML": "<section group=\"Headers header2\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" condition=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"15\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"15\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Scroll Bg\" name=\"scrollBg\" checked>\n        <input type=\"range\" title=\"Scroll Time\" name=\"scrollTime\" min=\"1\" max=\"60\" step=\"1\" value=\"17\" condition=\"scrollBg && bg.type == 'image'\" inline> \n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/desen-7-dou-pete-roii-2000x1102.jpeg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#dddddd\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"scroll-wrapper\" mbr-style=\"{'animation-duration':scrollTime+'s'}\"></div>\n    <div class=\"scroll-wrapper second\" mbr-if=\"scrollBg\" mbr-style=\"{'animation-duration':scrollTime+'s'}\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\">\n    </div>\n    <div class=\"container text-center block-content\" data-stellar-background-ratio=\".5\">\n      <div class=\"row justify-content-center slider-wrapper\" mbr-if=\"showTitle || showSubtitle\">\n        <div class=\"col-md-10\">\n          <h2 mbr-if=\"showTitle\" class=\"mbr-section-title mbr-fonts-style mbr-bold align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-title\">Despre a doua paranteză?<br><div><br></div></h2>\n          <h4 class=\"mbr-text mbr-fonts-style align-center mbr-bold\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><div><span style=\"font-size: 1rem; font-weight: 400;\">Iar pentru că era prea frig… și îngerii îngheţau fixaţi de candelabre… înţeleptul se întoarse la gesturile sale. Gândea, vezi Doamne!, că așa-i va scoate pe toți din amorțire. Pentru început folosi un gest scurt, de scamator. Apoi traversă abisul pe un fir de aţă, săvârşi câteva bătăi de aripi pentru menţinerea echilibrului, iar când nu mai avu ce să inventeze, se frecă la ochi – mirat parcă la vederea unei paranteze larg deschise. Părea pusă acolo, la zid, de ani de zile. Înțeleptul se curbă doar puțin, cât să-ndese cuvintele în ea ca într-o desagă:&nbsp;</span></div><div><span style=\"font-weight: 400;\">(„… una dintre cele mai noi teorii aflate la îndemâna noastră susţine că această traumă, recent descoperită, este diferită şi nu se compară cu... (aici înţeleptul se scufundă în tăcere încurcat. corpul central al textului lipsea cu desăvârşire)\n</span></div><div><span style=\"font-weight: 400;\">\n</span></div><div><span style=\"font-weight: 400;\">(după ce își oferi singur suficient timp la dispoziţie, reîncepu şoptit:)\n</span></div><div><span style=\"font-weight: 400;\"> \n</span></div><div><span style=\"font-weight: 400;\">Indiferent cum ar sta lucrurile, cert este că… în unanimitate, s-a acceptat ideea că… oboseala ...\n</span></div><div><span style=\"font-weight: 400;\">\n</span></div><div><span style=\"font-weight: 400;\">… s-a acceptat ideea că oboseala...\n</span></div><div><span style=\"font-weight: 400;\">\n</span></div><div><span style=\"font-weight: 400;\">(dar tot lipsea cea mai mare parte din text)\n</span></div><div><span style=\"font-weight: 400;\">…\n</span></div><div><span style=\"font-weight: 400;\">(şi dând întâmplător peste un fragment ceva mai consistent, se repezi asupra lui pentru a încheia în stil de mare orator:)\n</span></div><div><span style=\"font-weight: 400;\">O lovitură de stat reuşeşte doar atunci când este dată unui stat deja lovit.”) – iar după ce aruncă în aer un ultim gest compus la repezeală, înţeleptul se frânse în două până la pământ.\n</span></div><div><span style=\"font-weight: 400;\">\n</span></div><div><span style=\"font-weight: 400;\"><br></span></div></h4><h4>\n        </h4></div>\n      </div>\n    </div>\n    <div mbr-if=\"showArrow && fullScreen\" class=\"mbr-arrow hidden-sm-down block-content\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "sbVkNb07L6",
+          "_anchor": "extHeader4-g",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "alias": false,
           "_styles": {
             "& when not (@fullScreen)": {
@@ -588,7 +807,7 @@
               "background-image": "url(@bg-value)"
             },
             ".mbr-section-subtitle": {
-              "color": "#353535",
+              "color": "#444345",
               "text-align": "left"
             },
             ".mbr-section-title": {
@@ -604,6 +823,299 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "sbV4Ribtoi",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".text-block": {
+              "z-index": "2"
+            },
+            ".content-panel": {
+              "width": "110%",
+              "background": "@textPanelColor",
+              "padding": "3rem"
+            },
+            ".menu-box": {
+              "display": "flex",
+              "-webkit-align-items": "baseline",
+              "align-items": "baseline",
+              ".box-price": {
+                "-webkit-flex-shrink": "0",
+                "flex-shrink": "0",
+                "margin-left": "auto",
+                "word-break": "break-word"
+              }
+            },
+            ".item-title": {
+              "width": "100%"
+            },
+            "@media (max-width: 767px)": {
+              ".text-block": {
+                "padding-bottom": "2rem"
+              },
+              ".content-panel": {
+                "width": "100%",
+                "padding": "1rem"
+              }
+            },
+            "H3": {
+              "color": "#e43f3f"
+            }
+          },
+          "_name": "extShop8",
+          "_customHTML": "<section class=\"extFeatures\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"color\" title=\"Text Panel Color\" name=\"textPanelColor\" value=\"#ffffff\">\n        <input type=\"range\" inline title=\"Items\" name=\"itemsCount\" min=\"1\" max=\"10\" value=\"1\" step=\"1\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"../_images/rest/01.jpg\" title=\"Background Image\" parallax>\n            <input type=\"color\" value=\"#ffffff\" title=\"Background Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=pjiVuLVqWQg\" title=\"Background Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-sm-12 col-md-6 text-block\">\n                <div class=\"content-panel\">\n                <h2 class=\"mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"></h2>\n\n                    <div class=\"menu-content\" mbr-list mbr-list-grow=\"itemsCount\">\n                        <div class=\"menu-item\">\n                            <div class=\"menu-box\">\n                                <h3 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-4\"><div>\nÎnțeleptul scoase harta, busola</div><div>\n</div></h3>\n                                <span mbr-text class=\"mbr-fonts-style box-price\" mbr-theme-style=\"display-4\" data-app-selector=\".box-price\">și compasul. Le suci și&nbsp;<br>le-nvârti în toate direcțiile&nbsp;<br>posibile</span>\n                            </div>\n                            <p class=\"box-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".box-text\"></p>\n                        </div>\n                        \n                    </div>\n                </div>\n            </div>\n            <div class=\"col-sm-12 col-md-6 img-block align-center\">\n                <div class=\"mbr-figure\">\n                    <img src=\"@PROJECT_PATH@/assets/images/inteleptul-scoase-harta-busola-compasul-2-943x546.jpeg\" alt=\"Mobirise\" title>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sc0lKIuP9N",
+          "_anchor": "extShop8-r",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".title__block": {
+              "padding": "0 15px 0 30px",
+              "& when (@reverse)": {
+                "padding": "0 30px 0 15px"
+              },
+              "@media (max-width: 991px)": {
+                "margin-top": "30px",
+                "padding": "0 15px"
+              }
+            },
+            ".mbr-section-subtitle": {
+              "opacity": ".8",
+              "margin-bottom": "15px"
+            },
+            ".mbr-section-title .mbr-text": {
+              "margin-bottom": "30px"
+            },
+            ".mbr-text": {
+              "margin-bottom": "20px"
+            },
+            ".wrap": {
+              "height": "(@contentHeight * 1px)",
+              "@media (max-width: 565px)": {
+                "height": "200px"
+              }
+            },
+            ".content__block": {
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "padding": "0"
+            },
+            ".image": {
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "img": {
+                "width": "100%",
+                "height": "100%",
+                "object-fit": "cover",
+                "border-radius": "4px"
+              }
+            },
+            ".anim": {
+              "width": "62px",
+              "height": "62px",
+              "transition": "all cubic-bezier(0.4, 0, 0.2, 1) 0.4s",
+              "position": "relative",
+              "background-color": "fade(@playColor, 95)",
+              "border-radius": "50%",
+              "span": {
+                "color": "contrast(@playColor)",
+                "font-size": "18px",
+                "cursor": "pointer",
+                "width": "62px",
+                "height": "62px",
+                "line-height": "62px",
+                "position": "relative",
+                "display": "inline-block",
+                "margin-left": "2px",
+                "&.mbri-play:before": {
+                  "position": "absolute",
+                  "left": "50%",
+                  "transform": "translateX(-35%)"
+                }
+              },
+              "&:before": {
+                "content": "''",
+                "border-color": "inherit",
+                "width": "100%",
+                "height": "100%",
+                "border-radius": "50%",
+                "position": "absolute",
+                "top": "0",
+                "left": "0",
+                "opacity": "1",
+                "background": "fade(@playColor, 50)",
+                "animation-timing-function": "cubic-bezier(0.4, 0, 0.2, 1)",
+                "animation-duration": "1.2s",
+                "animation-name": "popup__video",
+                "animation-iteration-count": "infinite",
+                "animation-delay": "1s"
+              }
+            },
+            ".modalWindow": {
+              "position": "fixed",
+              "z-index": "5000",
+              "left": "0",
+              "top": "0",
+              "background-color": "#191f23",
+              "width": "100%",
+              "height": "100%",
+              ".modalWindow-container": {
+                "display": "table-cell",
+                "vertical-align": "middle"
+              },
+              ".modalWindow-video": {
+                "height": "~'calc(80vw / 1.778)'",
+                "width": "80vw",
+                "margin": "0 auto"
+              }
+            },
+            "a.close": {
+              "position": "absolute",
+              "right": "100px",
+              "top": "50px",
+              "color": "#ffffff",
+              "z-index": "5000000",
+              "font-size": "16px",
+              "padding": "10px",
+              "transition": "all 0.2s",
+              "&:hover": {
+                "color": "#ffffff"
+              }
+            },
+            "@keyframes popup__video": {
+              "0%": {
+                "transform": "scale(1)",
+                "opacity": "1"
+              },
+              "100%": {
+                "transform": "scale(1.5)",
+                "opacity": "0"
+              }
+            },
+            "@media (max-width: 575px)": {
+              "a.close": {
+                "right": "50px",
+                "top": "25px"
+              },
+              ".modalWindow": {
+                ".modalWindow-video": {
+                  "height": "~'calc(90vw / 1.778)'",
+                  "width": "90vw",
+                  "margin": "0 auto"
+                }
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#e43f3f"
+            }
+          },
+          "_name": "content3",
+          "_customHTML": "<section class=\"content3\" group=\"Content\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"PlayerVimeo\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"Left/Right Content\" name=\"reverse\" condition=\"contentWidth <= 2\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" condition=\"contentWidth <= 2\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" condition=\"contentWidth <= 2\" checked=\"checked\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" condition=\"contentWidth <= 2\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" condition=\"contentWidth <= 2\">\n        <header>Video</header>\n        <input type=\"range\" inline title=\"Video Width\" name=\"contentWidth\" min=\"1\" max=\"5\" value=\"1\" step=\"1\">\n        <input type=\"range\" inline title=\"Video Height\" name=\"contentHeight\" min=\"100\" max=\"500\" value=\"100\" step=\"20\">\n        <input type=\"color\" title=\"Play Color\" value=\"#ffffff\" name=\"playColor\">\n        <input type=\"text\" title=\"Modal Video\" name=\"modalVideo\" value>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/conference28_1920.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class mbr-class=\"{'container-fluid' : fullWidth, 'container' : !fullWidth}\">\n        <div class=\"row justify-content-center align-items-center\" mbr-class=\"{'flex-row-reverse' : reverse}\">\n            <div class=\"content__block wrap\" mbr-class=\"{'col-lg-5': contentWidth == 1,\n                         'col-lg-7': contentWidth == 2,\n                         'col-lg-8': contentWidth == 3,\n                         'col-lg-10': contentWidth == 4,\n                         'col-lg-12': contentWidth == 5}\">\n                <div class=\"image\">\n                    <img src=\"@PROJECT_PATH@/assets/images/desen-6-pata-roie-2000x1102.jpeg\" alt title>\n                </div>\n                        <div class=\"mbr-media show-modal align-center\" data-modal=\".modalWindow\">\n                            <div class=\"anim\">\n                             <span mbr-icon class=\"mbr-iconfont socicon-tinder socicon\" style=\"font-size: 16px; color: rgb(228, 63, 63); fill: rgb(228, 63, 63);\"></span>\n                                </div>\n                            </div>\n                    <div class=\"modalWindow\" style=\"display: none;\">\n                        <div class=\"modalWindow-container\">\n                            <div class=\"modalWindow-video-container\">\n                                <div class=\"modalWindow-video\">\n                                    <iframe width=\"100%\" height=\"100%\" data-src=\"{{modalVideo}}\" frameborder=\"0\" allowfullscreen=\"1\"></iframe>\n                                </div>\n                                <a class=\"close\" role=\"button\" data-dismiss=\"modal\">\n                                    <span aria-hidden=\"true\" class=\"mbri-close mbr-iconfont closeModal\"></span>\n                                    <span class=\"sr-only\">Close</span>\n                                </a>\n                            </div>\n                        </div>\n                    </div>\n                \n            </div>\n            \n            <div class=\"col-lg-5 title__block\" mbr-if=\"contentWidth <= 2\">\n                <h3 class=\"mbr-section-subtitle mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">SHOWCASE</h3>\n                <h2 class=\"mbr-section-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Despre cea care ar trebui să fie a treia paranteză&nbsp;</h2>\n                 <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Înţeleptul își desfăcu brațele în aplauzele tuturor. Făcu o plecăciune elegantă, numai bună de impresionat publicul. Și poate că nu s-ar fi oprit din repetarea ei dacă paranteza nu era deja acolo, larg deschisă: \n<br>(„...\n<br>(deși, din text nu s-a mai păstrat nimic) \n<br>...”)\n<br>Motiv pentru care, înţeleptul, închizând paranteza, mai făcu o plecăciune la fel de teatrală.&nbsp;<br></p>\n                 <div class=\"mbr-section-btn\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\"><a class=\"btn btn-secondary\" href=\"#\" data-app-placeholder=\"Type Text\">Read more<span class=\"fa-long-arrow-right fa mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
+          "_cid": "sc0f68zMZN",
+          "_anchor": "content3-l",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-section-title": {
+              "color": "#000000",
+              "text-align": "right"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#353535",
+              "text-align": "right"
+            },
+            ".mbr-section-title DIV": {
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "left",
+              "color": "#e43f3f"
+            }
+          },
+          "_name": "header3",
+          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"8\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\" selected>Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/3.-copilul-metamorfoza-pentru-site-1782x1140.jpeg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><div><b>Fericirea nu are poveste\n</b></div><div><b>(Copilul-metamorfoză)</b></div><br><br><br><br><div><b>\n</b></div></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showSubitle\">„Copilul, poziționat cum nu se poate mai bine în lumina amiezii, striga zguduit de propriul lui ecou:\n<div>‹‹Sunt faţă în faţă cu tine... și vreau să fiu un câine acum!\n</div><div>Ne jucăm jocul numit: Ce vrei să fii… \n</div><div>Iar eu, acum, vreau să fiu un câine care latră şi muşcă pe toată lumea.\n</div><div>Sunt câinele tău şi muşc pe oricine întâlnesc în cale!››\n</div><div>Aşa striga copilul ca turbat, alergând la marginea pădurii întunecoase.\n</div><div>De acolo venea rostogolindu-se cu un muget reţinut:\n</div><div>‹‹Acum sunt un iepure – zicea el – şi îmi închid ochii de teamă.\n</div><div>Nu mai este lumină pe faţa pământului. – Au rămas doar umbre care se zbat. – Iar eu, nu sunt decât un biet iepure.\n</div><div>Uite! Acum, sunt un iepure pregătit să sară trei metri înălţime. \n</div><div>Iar acum, sunt un iepure paralizat, cu frica înfiptă în oase. Asta pentru că simt pericolul. Simt vânătorul cum se apropie. \n</div><div>Dacă aș putea să scap de frica aceasta cumplită, care pur și simplu mă îngheață!... Vizuina mea nu e departe, o văd chiar de aici: uite-o! e dincolo de poteca îngustă. – Imediat ce voi ajunge la ea, am s-o fac mai încăpătoare. Voi săpa galerii până în miezul pământului!\n</div><div>Acum sunt un iepure numai bun pentru haina ta. Numai bun de pus la guler şi manşete. Sunt iepurele tău. Sunt iepurele sălbatic de la haina ta preferată!›› \n</div><div>Aşa striga copilul behăind în alergare, verde la faţă, crud şi speriat – sărind peste prăpăstii şi avene – ajuns până în buza talazurilor.\n</div><div>‹‹Nu mai e nicio surpriză! Ne jucăm Ce vrei să fii… \n</div><div>Iar eu, acum, vreau să fiu păpuşa ta!\n</div><div>Uite, lumina a reapărut și mă scald în ea!\n</div><div>Sunt păpuşa din mâinile tale, din leagănul şi din pătucul tău. \n</div><div>Sunt gata să spun Mama. Să spun Tata. Să râd. Să plâng. – Sunt gata să sughit fără oprire zile în șir, dacă e nevoie. Am să-ţi sfâşii inima de milă!\n</div><div>Pentru că sunt păpuşa ta.\n</div><div>Sunt păpuşa ta...\n</div><div>Fără un braţ... fără un picior... fără cap... Păpușa care nu mai plânge.\n</div><div>Sunt păpuşa ta dezmembrată.››\n</div><div>Aşa gângurea copilul ieşit în calea mea ca dintr-un ou, de după colţul casei, de sub streaşină.”\n</div><div>– \n</div><div><br></div></h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br><br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-success\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Free Download!</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "header3-t",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sc0zWIxtHl",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle DIV": {
+              "text-align": "right"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "right",
+              "color": "#444345"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title with Solid Background</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\">Şi înţeleptul pufni o dată, pufni de două ori; se spulberă o dată, se spulberă de două ori; se ploconi, se lăţi şi se scurtă de trei ori – până când luna îi întoarse spatele dezgustată.\n<div>\n</div><div><i><br></i></div></h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content4-h",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sbVqR9JXID",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -750,122 +1262,51 @@
             }
           },
           "_name": "extFeatures44",
-          "_customHTML": "<section class=\"extFeatures\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"image\" name=\"img\" title=\"Block Image\" value=\"@PROJECT_PATH@/assets/images/desen-2-1370x866.jpg\" parallax>\n        <input type=\"color\" name=\"color\" title=\"Block Color\" value=\"#ffffff\" selected>\n        <input type=\"color\" name=\"hover\" title=\"Text Hover Color\" value=\"#ffffff\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/desen-2-2000x1166.jpeg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-lg-6 col-md-12 align-left\">\n                <div class=\"content-block\">\n                    <h3 class=\"mbr-section-subtitle mbr-regular mbr-black pb-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubTitle\"></h3>\n                    <h2 class=\"mbr-section-title mbr-semibold mbr-black pb-4 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Industry Efficiency</h2>\n                    <p class=\"mbr-text mbr-black mbr-regular mbr-light mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><i>Înțeleptul scoase harta, busola și compasul. Le suci și le-nvârti în toate direcțiile posibile, dar tot nu află în dreptul cărei borne ajunsese. Ori poate că bornele s-au îndepărtat pe tăcute, l-au lăsat în urmă; poate că și-au ales o altă destinație, intempestiv, rușinate… \n<br>De obicei, din acest loc se deschidea, ca un evantai, pădurea celor trei izvoare: unul care duce spre fericire, altul spre dezastru, și altul spre amăgirea veșnică. Fiecare izvor este păzit de câte o umbră cu trei brațe: una numită Plăcere, alta Cruzime, alta Ignoranță – toate mângâind la fel de îmbietor… de nu mai știi care este care…\n<br>Nu e nicio surpriză că înțeleptul și-a pierdut complet orientarea… Conform busolei toate direcțiile posibile îi indică ceva… potrivit compasului – nimic cu adevărat… iar harta doar stă și se conformează. \n</i><br><br></p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-white-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">READ MORE</a></div>\n                </div>\n            </div>\n\n            <div class=\"col-lg-6 col-md-12 hoverEl align-left\">\n                <div class=\"overlay-wrapper\">\n                    <div class=\"overlay\"></div>\n                    <div class=\"img-content\">\n                    </div>\n                </div>\n\n                <div class=\"box-content\">\n                    <div class=\"content1\">\n                        <h4 class=\"box-title2 mbr-medium mbr-white pb-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".box-title2\">Distribution</h4>\n                        <h3 class=\"box-text2 mbr-regular mbr-white pb-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".box-text2\">Copilul metamorfoză</h3>\n                    </div>\n                </div>\n\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "sbVgYoR5kp",
-          "_anchor": "extFeatures44-c",
+          "_customHTML": "<section class=\"extFeatures\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"image\" name=\"img\" title=\"Block Image\" value=\"@PROJECT_PATH@/assets/images/desen-2-1370x866.jpg\" parallax>\n        <input type=\"color\" name=\"color\" title=\"Block Color\" value=\"#ffffff\" selected>\n        <input type=\"color\" name=\"hover\" title=\"Text Hover Color\" value=\"#ffffff\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/desen-2-2000x1166.jpeg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-lg-6 col-md-12 align-left\">\n                <div class=\"content-block\">\n                    <h3 class=\"mbr-section-subtitle mbr-regular mbr-black pb-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubTitle\">\n<div>Şi despre cea de-a patra paranteză</div></h3>\n                    <h2 class=\"mbr-section-title mbr-semibold mbr-black pb-4 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Industry Efficiency</h2>\n                    <p class=\"mbr-text mbr-black mbr-regular mbr-light mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br>Cum nimeni nu avea nimic de spus – înţeleptul luă iniţiativa: deschise o paranteză (a patra trebuie să fie)... şi dădu să pună în ea câteva cuvinte: \n<br>(„...\n<br>(dar, bineînțeles, nu avea de unde alege.\n<br>... nici din acest text nu s-a păstrat nimic. se presupune că s-ar fi pierdut în același fel și în același timp cu fragmentele lui Heraclit.)\n<br>...”) \n<br>– Căutând o concluzie, înţeleptul se flagelă cu un gest colosal – (…) – apoi, se aruncă de la înălţimea unui curcubeu aureolat până-n inima parantezei. Cine ar fi zis că e posibil așa ceva fără tobogan?…<br><br><br></p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-lg btn-white-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">READ MORE</a></div>\n                </div>\n            </div>\n\n            <div class=\"col-lg-6 col-md-12 hoverEl align-left\">\n                <div class=\"overlay-wrapper\">\n                    <div class=\"overlay\"></div>\n                    <div class=\"img-content\">\n                    </div>\n                </div>\n\n                <div class=\"box-content\">\n                    <div class=\"content1\">\n                        <h4 class=\"box-title2 mbr-medium mbr-white pb-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".box-title2\">Distribution</h4>\n                        <h3 class=\"box-text2 mbr-regular mbr-white pb-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".box-text2\">Copilul metamorfoză</h3>\n                    </div>\n                </div>\n\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "extFeatures44-p",
+          "_isUserblock": true,
+          "_sourceTheme": "conferencem4",
+          "_cid": "sc0jS885IM",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
         },
         {
-          "alias": "mobirise4-blocks/components",
-          "_isSecondary": true,
-          "typeCompatible": "type",
+          "alias": false,
           "_styles": {
-            "overflow-x": "hidden !important",
             "& when not (@fullScreen)": {
-              "&, .scroll-wrapper": {
-                "padding-top": "(@paddingTop * 15px)",
-                "padding-bottom": "(@paddingBottom * 15px)"
-              }
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
             ".mbr-section-title": {
-              "color": "#283742",
-              "span": {
-                "color": "@primaryColor"
-              },
+              "color": "#000000",
               "text-align": "right"
             },
-            ".mbr-text": {
-              "color": "#888888",
-              "letter-spacing": "5px",
-              "font-weight": "100",
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#353535",
               "text-align": "right"
             },
-            ".scroll-wrapper": {
-              "top": "0",
-              "width": "100%",
-              "height": "100%",
-              "background-position": "50% 50%",
-              "background-size": "cover",
-              "position": "absolute",
-              "background-repeat": "repeat",
-              "z-index": "0",
-              "-webkit-animation-duration": "~\"@{scrollTime}s\" !important",
-              "animation-duration": "~\"@{scrollTime}s\"",
-              "& when (@bg-type = 'color')": {
-                "background-color": "@bg-value"
-              },
-              "& when (@bg-type = 'image')": {
-                "background-image": "url(@bg-value)",
-                "& when (@scrollBg)": {
-                  "-webkit-animation": "scroll-wrapper linear infinite",
-                  "-moz-animation": "scroll-wrapper linear infinite",
-                  "-o-animation": "scroll-wrapper linear infinite",
-                  "animation": "scroll-wrapper linear infinite",
-                  "-webkit-transform": "translateZ(0)",
-                  "transform": "translateZ(0)"
-                }
-              },
-              "&.second": {
-                "left": "~\"calc(100% - 1px)\""
-              }
+            ".mbr-section-title DIV": {
+              "text-align": "left"
             },
-            ".mbr-overlay": {
-              "z-index": "1"
-            },
-            ".block-content": {
-              "z-index": "2"
-            },
-            "@keyframes scroll-wrapper": {
-              "0%": {
-                "-webkit-transform": "translateX(0)",
-                "transform": "translateX(0)"
-              },
-              "100%": {
-                "-webkit-transform": "translateX(-100%)",
-                "transform": "translateX(-100%)"
-              }
-            },
-            "@-webkit-keyframes scroll-wrapper": {
-              "0%": {
-                "-webkit-transform": "translateX(0)",
-                "transform": "translateX(0)"
-              },
-              "100%": {
-                "-webkit-transform": "translateX(-100%)",
-                "transform": "translateX(-100%)"
-              }
-            },
-            "@-moz-keyframes scroll-wrapper": {
-              "0%": {
-                "-webkit-transform": "translateX(0)",
-                "transform": "translateX(0)"
-              },
-              "100%": {
-                "-webkit-transform": "translateX(-100%)",
-                "transform": "translateX(-100%)"
-              }
-            },
-            "@-o-keyframes scroll-wrapper": {
-              "0%": {
-                "-webkit-transform": "translateX(0)",
-                "transform": "translateX(0)"
-              },
-              "100%": {
-                "-webkit-transform": "translateX(-100%)",
-                "transform": "translateX(-100%)"
-              }
-            },
-            ".mbr-text DIV": {
-              "text-align": "right"
+            ".mbr-section-subtitle": {
+              "text-align": "left",
+              "color": "#e43f3f"
             }
           },
-          "_name": "extHeader4",
-          "_customHTML": "<section group=\"Headers header2\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" condition=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"15\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"15\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Scroll Bg\" name=\"scrollBg\" checked>\n        <input type=\"range\" title=\"Scroll Time\" name=\"scrollTime\" min=\"1\" max=\"60\" step=\"1\" value=\"17\" condition=\"scrollBg && bg.type == 'image'\" inline> \n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/desen-7-dou-pete-roii-2000x1102.jpeg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#dddddd\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"scroll-wrapper\" mbr-style=\"{'animation-duration':scrollTime+'s'}\"></div>\n    <div class=\"scroll-wrapper second\" mbr-if=\"scrollBg\" mbr-style=\"{'animation-duration':scrollTime+'s'}\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\">\n    </div>\n    <div class=\"container text-center block-content\" data-stellar-background-ratio=\".5\">\n      <div class=\"row justify-content-center slider-wrapper\" mbr-if=\"showTitle || showSubtitle\">\n        <div class=\"col-md-10\">\n          <h2 mbr-if=\"showTitle\" class=\"mbr-section-title mbr-fonts-style mbr-bold align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-title\">Fericirea nu are poveste\n<div>(Copilul-metamorfoză)\n</div><div><br></div></h2>\n          <h4 class=\"mbr-text mbr-fonts-style align-center mbr-bold\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><span style=\"font-weight: normal;\">„Copilul, poziționat cum nu se poate mai bine în lumina amiezii, striga zguduit de propriul lui ecou:\n</span><div><span style=\"font-weight: normal;\">‹‹Sunt faţă în faţă cu tine... și vreau să fiu un câine acum!\n</span></div><div><span style=\"font-weight: normal;\">Ne jucăm jocul numit: Ce vrei să fii… \n</span></div><div><span style=\"font-weight: normal;\">Iar eu, acum, vreau să fiu un câine care latră şi muşcă pe toată lumea.\n</span></div><div><span style=\"font-weight: normal;\">Sunt câinele tău şi muşc pe oricine întâlnesc în cale!››\n</span></div><div><span style=\"font-weight: normal;\">Aşa striga copilul ca turbat, alergând la marginea pădurii întunecoase.\n</span></div><div><span style=\"font-weight: normal;\">De acolo venea rostogolindu-se cu un muget reţinut:\n</span></div><div><span style=\"font-weight: normal;\">‹‹Acum sunt un iepure – zicea el – şi îmi închid ochii de teamă.\n</span></div><div><span style=\"font-weight: normal;\">Nu mai este lumină pe faţa pământului. – Au rămas doar umbre care se zbat. – Iar eu, nu sunt decât un biet iepure.\n</span></div><div><span style=\"font-weight: normal;\">Uite! Acum, sunt un iepure pregătit să sară trei metri înălţime. \n</span></div><div><span style=\"font-weight: normal;\">Iar acum, sunt un iepure paralizat, cu frica înfiptă în oase. Asta pentru că simt pericolul. Simt vânătorul cum se apropie. \n</span></div><div><span style=\"font-weight: normal;\">Dacă aș putea să scap de frica aceasta cumplită, care pur și simplu mă îngheață!... Vizuina mea nu e departe, o văd chiar de aici: uite-o! e dincolo de poteca îngustă. – Imediat ce voi ajunge la ea, am s-o fac mai încăpătoare. Voi săpa galerii până în miezul pământului!\n</span></div><div><span style=\"font-weight: normal;\">Acum sunt un iepure numai bun pentru haina ta. Numai bun de pus la guler şi manşete. Sunt iepurele tău. Sunt iepurele sălbatic de la haina ta preferată!›› \n</span></div><div><span style=\"font-weight: normal;\">Aşa striga copilul behăind în alergare, verde la faţă, crud şi speriat – sărind peste prăpăstii şi avene – ajuns până în buza talazurilor.\n</span></div><div><span style=\"font-weight: normal;\">‹‹Nu mai e nicio surpriză! Ne jucăm Ce vrei să fii… \n</span></div><div><span style=\"font-weight: normal;\">Iar eu, acum, vreau să fiu păpuşa ta!\n</span></div><div><span style=\"font-weight: normal;\">Uite, lumina a reapărut și mă scald în ea!\n</span></div><div><span style=\"font-weight: normal;\">Sunt păpuşa din mâinile tale, din leagănul şi din pătucul tău. \n</span></div><div><span style=\"font-weight: normal;\">Sunt gata să spun Mama. Să spun Tata. Să râd. Să plâng. – Sunt gata să sughit fără oprire zile în șir, dacă e nevoie. Am să-ţi sfâşii inima de milă!\n</span></div><div><span style=\"font-weight: normal;\">Pentru că sunt păpuşa ta.\n</span></div><div><span style=\"font-weight: normal;\">Sunt păpuşa ta...\n</span></div><div><span style=\"font-weight: normal;\">Fără un braţ... fără un picior... fără cap... Păpușa care nu mai plânge.\n</span></div><div><span style=\"font-weight: normal;\">Sunt păpuşa ta dezmembrată.››\n</span></div><div><span style=\"font-weight: normal;\">Aşa gângurea copilul ieşit în calea mea ca dintr-un ou, de după colţul casei, de sub streaşină.”\n</span></div><div><br></div></h4><h4>\n        </h4></div>\n      </div>\n    </div>\n    <div mbr-if=\"showArrow && fullScreen\" class=\"mbr-arrow hidden-sm-down block-content\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-          "_cid": "sbVkNb07L6",
-          "_anchor": "extHeader4-g",
+          "_name": "header3",
+          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"6\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/4.-copilul-inalbit-pentru-site-1632x1112.jpeg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><div><b>Fericirea nu are poveste\n</b></div><div><b>(Copilul-înălbit)\n</b></div></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showSubitle\">„Țâncul ăsta avea o particularitate ce nu putea fi trecută cu vederea: la fiecare boacănă îi apărea pe corp câte o pată. Din senin. Fără ca cineva să-l atingă. Nu era vorba de o vânătaie; pata se ștergea foarte ușor când părinții aplicau asupra ei una sau mai multe mângâieri. Dacă puștiul se prezenta pentru „șters” la scurt timp după săvârșirea boroboaței, urma dispărea dintr-o simplă și singură atingere. Dacă însă, ascundea nerozia de ochii celorlalți cu lunile, pata se adâncea și își accentua culoarea, fiind nevoie de mult mai multă silință din partea părinților să o scoată „la spălat”. Se cereau multe mângâieri și atingeri repetate. Tandrețea era însă absolut necesară. Nimic nu trecea prin apăsare. Doar consecvența producea miracole. Iar părinții nu se dădeau îndărăt, tot așa cum fiul lor nu se dezmințea să intre pe ușă cu cel puțin o pată de culoare: uneori verde, alteori maro… doar nuanțe închise; uneori vizibile: pe bărbie, la tâmplă sau în palmă; de cele mai multe ori ascunse sub haine. Petele mici indicau fapte mărunte, pe când cele extinse pe o suprafață mare de piele erau cu siguranță cauzate de acțiuni reprobabile, deosebit de grave. Le lua mult timp să-l oblojească. Dar ce altceva ar fi putut face? Nimeni nu era în măsură să-i înlocuiască. Au încercat și bunicii… însă, după cum se știe, aceștia sunt de obicei mult prea indulgenți; nu e de mirare că în acest caz acțiunea lor n-a avut succes. Au încercat, mai apoi, mătușile. Au luat lecții explicite de la părinți; s-au străduit să facă întocmai: cu palma larg deschisă, cu o atingere fină, tandră, fără grabă, deasupra petei, nici mai mult, nici mai puțin… dar tot degeaba! Puteau să facă orice; puteau să se dea peste cap de câte ori ar fi vrut; până la urmă, se întorceau la ce știau deja: numai și numai mâinile părinților reduceau vizibil diametrul păcătoșeniilor. Iar puștiul se arăta cel mai fericit că lucrurile stau astfel: părinții lui nu l-ar fi trădat niciodată. Putea să spargă ferestre fără de număr, putea să pună câte piedici ar fi vrut, cui s-ar fi nimerit… putea să omoare câini și pisici, păsări nevinovate… putea să insulte, să lovească, să agreseze din toată inima… știa că petele aveau să dispară printr-o singură mângâiere părintească. Nu-și făcea griji. În schimb, părinții lui îngăduitori se tot gândeau… se gândeau cum va fi când nu vor mai fi. Când nu va mai exista pe lume nimeni care să le ia locul. Când nu va exista cineva în putere să-l înălbească. Ce se va face el când petele se vor aduna unele peste altele…\n<div>Cum va fi?… Cum va fi el atunci?”\n</div><div><br></div></h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br><br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-success\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Free Download!</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "header3-u",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sc0Db5Sz7v",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -884,20 +1325,23 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-section-subtitle DIV": {
+            ".mbr-section-subtitle": {
+              "color": "#353535",
               "text-align": "right"
             },
-            ".mbr-section-subtitle": {
-              "text-align": "right",
-              "color": "#e43f3f"
+            ".mbr-section-title": {
+              "text-align": "right"
+            },
+            ".mbr-section-subtitle DIV": {
+              "text-align": "left"
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"4\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title with Solid Background</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\">Şi înţeleptul pufni o dată, pufni de două ori; se spulberă o dată, se spulberă de două ori; se ploconi, se lăţi şi se scurtă de trei ori – până când luna îi întoarse spatele dezgustată.\n<div>\n</div><div><i><br></i></div></h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content4-h",
+          "_customHTML": "<section class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/desen-1-2000x1178.jpeg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-4\"></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\"><div>A mia oară înțeleptul încercă să ducă la bun sfârșit construirea unui palat din cărți de joc… Dar pe undeva, încheieturile nu se lăsau domesticite: regele o lua razna imediat ce era pus lângă valet… popii nu-i pică deloc bine când se trezi cu dama-n brațe… iar cupa se dorea mereu golită și umplută…&nbsp;</div></h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content4-v",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
-          "_cid": "sbVqR9JXID",
+          "_cid": "sc0HBGzadi",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -929,11 +1373,51 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"9\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/desen-5-1370x866.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\"><b>Şi despre cea de-a patra paranteză</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\"><div>\n</div><div>Cum nimeni nu avea nimic de spus – înţeleptul luă iniţiativa: deschise o paranteză (a patra trebuie să fie)... şi dădu să pună în ea câteva cuvinte:&nbsp; \n</div><div>(„...\n</div><div>(dar, bineînțeles, nu avea de unde alege.\n</div><div>... nici din acest text nu s-a păstrat nimic. se presupune că s-ar fi pierdut în același fel și în același timp cu fragmentele lui Heraclit.)\n</div><div>...”)&nbsp;\n</div><div>– Căutând o concluzie, înţeleptul se flagelă cu un gest colosal – (…) – apoi, se aruncă de la înălţimea unui curcubeu aureolat până-n inima parantezei. Cine ar fi zis că e posibil așa ceva fără tobogan?…\n</div><div><br><div><br></div></div></h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"9\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/desen%205-1370x866.jpeg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\"><b>Despre paranteze origami</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\"><div>\n</div><div>Înțeleptul se plimba într-o grădină japoneză fără să știe de ce, fără companie, fără cuvinte. Urma un pas cu un alt pas. Pietrișul fin îi pătrundea între tălpi și sandale; devenea una cu materialul alb al șosetelor, iar apa se auzea șiroind de pe streșini. Florile de cais nu spuneau nimic. Deși era vremea lor. Poate că totuși altcineva știe să spună mai bine ce au ele de spus. Ori poate că ele nu au niciodată ceva de spus, chiar dacă altcineva știe mai bine. Or fi alte ființe pe lumea asta, hărăzite cuvântului zadarnic. De exemplu, parantezele.\n</div><div>(Până la urmă, toate parantezele au de spus câte ceva. Chiar și atunci când nu spun nimic. Noi le clasificăm după importanța spuselor… dar pentru ele, orice ar spune este în egală măsură de important, chiar și atunci când nimic nu este important. Și asta deoarece, pentru ele, niciun  cuvânt nu primează în fața altuia. Așa a fost dintotdeauna. Poate tocmai de aceea, când dăm peste o paranteză, pentru noi, irefutabil de banală și plicticoasă, ne întrebăm scandalizați cum de a putut ieși așa ceva la lumina zilei!... Ei bine, se ivește așa ceva tocmai pentru că, din punctul de vedere al parantezei, textul acela este unicul și singurul – și de aceea importanța lui nu mai are nicio importanță.)\n</div><div>Înțeleptul se plimba într-o grădină japoneză.\n</div><div><br></div><div><div><br></div></div></h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content4-i",
           "_isUserblock": true,
           "_sourceTheme": "mobirise5",
           "_cid": "sbVrg1nQ3Q",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-section-title": {
+              "color": "#000000",
+              "text-align": "right"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#353535",
+              "text-align": "right"
+            },
+            ".mbr-section-title DIV": {
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "left",
+              "color": "#e43f3f"
+            }
+          },
+          "_name": "header3",
+          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\" selected>Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/5.-copilul-plutitor-pentru-site-2000x2032.jpeg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><div><b>Fericirea nu are poveste\n</b></div><div><b>(Copilul-plutitor)\n</b></div></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showSubitle\">„Niciodată nu atinsese pământul cu tălpile picioarelor. Plutea în linişte. Plutea deasupra apelor, deasupra smârcurilor, deasupra deşertului crăpat sub vânt şi lumină. Plutea legat la ochi deasupra realităţii galbene.\n<div>Un curent îl purta bezmetic pe aripile lui. Uneori era ridicat sus de tot, până atingea nivelul palid al sufocării. Alteori cobora atât de jos încât părul flutura razant cu pământul, fruntea raşcheta vârful ierbii, iar buzele sărutau bruma... Dar niciodată talpa sa nu încovoiase planul vreunei suprafeţe terestre. Nu ştia defel să meargă. \n</div><div>Plutirea molcomă se sfârșea doar dacă aripile curentului, istovite de efortul susținerii, deveneau blege și-l scăpau din înalt… copilul ajungând să se izbească, bont, de solul pietros. Contactul era aprig, rupând nervii şi croind fâşii adânci în măduva galbenă a respiraţiei.\n</div><div>Iar atunci – regreta că n-a ales o altă culoare. \n</div><div>...</div><div>Dar nu era lăsat mult să putrezească în flora impactului. \n</div><div>Mâini invizibile îl săltau de la pământ, aşezându-l cu multă grijă pe venele albastre ale cerului; şi imediat plutea ca înainte: dezinvolt, lin, candid.\n</div><div>Orele de contemplare erau savurate în liniște la tâmpla unui rege simbolic. De aici, odată cu lăsarea serii, iniția cu mare vâlvă preferatele sale tumbe nocturne: ca un liliac flămând, survola turle de biserici, nenumărate coşuri fumegânde, ţigle din lut albastru… una după alta, toate casele sechestrate în ţurţuri de gheaţă.&nbsp;<span style=\"font-size: 0.9rem;\">Sub ochii uimiți ai lunii, se lăsa sedus de zâmbetul copiilor ce semănau – cu bocanci zornăitori – urme de titani în mormanul de zăpadă. Ar fi dorit să pășească odată cu ei; ar fi dat orice să deschidă pârtii, să lase dâre adânci și late, împletite în opt, în șaisprezece, în douăzeci și patru de pași… iar la sfârșit, gâfâind, să se ascundă umăr lângă umăr sub umbra care proptește gardul orașului. Ce aventură! De acolo i-ar fi aflat cu siguranță secretul. ” Cum reușește? Ce face de ține gardul, perfect pe verticală?!”...</span></div><div>Dar un asemenea joc, pentru el, rămânea doar o simplă amăgire… Picioarele îi fluturau printre fulgi ca niște cârpe moarte. \n</div><div>După ce orologiul primăriei bătea miezul nopții, se întorcea purtat de mâinile invizibile la urechile regelui adormit. Aici, își trecea vremea îngânând vise zdruncinate de schisme, rebeliuni antice, detronări și înscăunări de culise. Regele le visa întocmai, chicotind și mustăcind din cel de-al treilea și cel mai profund strat al somnului. – În zori, copilul era luat şi dus spre orizont... spre înalt… spre inima tăcerii goale. \n</div><div>După o vreme, mâinile au slăbit vizibil. Suportul a devenit palid, iar în cele din urmă a dispărut cu totul. Din vârful iernii, copilul ajunse, din nou, în mâzga pământului albastru.\n</div><div>Și atunci – regretă că n-a ales o altă culoare.\n</div><div>...\n</div><div>Stătea cu ochii închişi. Nu dorea să-şi citească durerea împrăştiată prin iarba deasă. Frânturile chinului se zbăteau fără glas câțiva pași mai încolo. Ar fi fost insuportabil să-şi privească disperarea, atârnând în franjuri de ghearele arborilor brumaţi. De aceea stătea cu ochii închişi, cu respiraţia tăiată. \n</div><div>Dar nu degustă mult din carnea înfrângerii crude, căci dinspre viitor fu trimis un vânt plin cu speranţe şi promisiuni calde. Vântul îl ridică în aer… şi-l purtă pe umerii unor aburi argintii – până departe.\n</div><div>Astfel, copilul se regăsi curtând mirese scoase la mezat în ajun. Pendulă molcom deasupra sihastrului care le mirosea, zâmbind, puritatea. Chiar reuși, în zbor flancat, să sperie câteva jivine!… Apoi dădu ocoluri tandre, unui lac în care cerul se scufundase cu totul şi înlemnise în miezul lui îngheţat. \n</div><div>Câteva ore mai târziu, de la mare înălţime, media taberele aruncate în luptă pentru calul unui rege fără tron şi fără potcoave… Sărută mâinile sfinxului, şi se replie printre aşternuturile argintii ale lunii secerate. De acolo trasă linii de-a lungul arăturii. Încurajă întrebări care bifurcau sensurile... și expedie din senin exclamaţii curtenitoare unui drumeţ pierdut în mrejele beţiei.\n</div><div>Uită complet de trecerea timpului. Uită de aerul cald, de îndepărtarea pământului în rotocoale. Nu luă în seamă defel dogoarea argintie. Nici adormirea gheţii în lumina zilei.\n</div><div>Zâmbea unei vedenii înaripate – când vântul viitorului se topea sub el, picur cu picur. Mai stătu în aer doar o clipă – cât să abată fumul deasupra unei pipe. – Apoi totul se destrămă. – Nu mai rămase nimic din speranţele şi visele sale argintii. Nimic din umbra promisiunilor calde. \n</div><div>Şi atunci – avu toate motivele să regrete, că n-a ales o altă culoare.\n</div><div>…\n</div><div>Impactul zdruncină creierii. Oasele scrâşniră frânte. O piele decolorată se deşiră pe roca unui mal sălbatic. Nu fusese niciodată pus să meargă, să păşească de unul singur, pe picioarele sale. Iar acum trebuia să rămână întins, neajutorat. Nu se putea ridica; nu se putea văicări. Suflarea îi fusese curmată. \n</div><div>O boare se apropie, îi mângâie fruntea; dar pentru că nu avea tărie, ridică în aer doar câteva fire de păr blond… zdrobite cândva, pe suprafaţa de granit a realităţii.”\n</div><div><br></div></h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br><br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-success\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Free Download!</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "header3-w",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "sc0RhOKERA",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
