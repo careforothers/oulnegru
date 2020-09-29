@@ -1630,19 +1630,17 @@ blockquote {
   background-color: #ffffff;
 }
 .cid-sbVrg1nQ3Q .mbr-section-subtitle {
-  color: #c3c3c3;
+  color: #888888;
   text-align: right;
 }
 .cid-sbVrg1nQ3Q .mbr-section-title {
   text-align: right;
-  color: #c3c3c3;
+  color: #888888;
 }
 .cid-sbVrg1nQ3Q .mbr-section-subtitle DIV {
   text-align: right;
 }
 .cid-sc0RhOKERA {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
   background-image: url("../../../assets/images/5.-copilul-plutitor-pentru-site-2000x2032.jpeg");
 }
 .cid-sc0RhOKERA .mbr-section-title {
@@ -1651,7 +1649,7 @@ blockquote {
 }
 .cid-sc0RhOKERA .mbr-text,
 .cid-sc0RhOKERA .mbr-section-btn {
-  color: #353535;
+  color: #ffffff;
   text-align: right;
 }
 .cid-sc0RhOKERA .mbr-section-title DIV {
@@ -1660,4 +1658,144 @@ blockquote {
 .cid-sc0RhOKERA .mbr-section-subtitle {
   text-align: left;
   color: #e43f3f;
+}
+.cid-sc1cjIsyNx {
+  background-color: #ffffff;
+}
+.cid-sc1cjIsyNx .mbr-section-title {
+  color: #c3c3c3;
+  text-align: right;
+}
+.cid-sc1cjIsyNx .mbr-text,
+.cid-sc1cjIsyNx .mbr-section-btn {
+  color: #ffffff;
+  text-align: right;
+}
+.cid-sc1cjIsyNx .mbr-section-title DIV {
+  text-align: left;
+}
+.cid-sc1cjIsyNx .mbr-section-subtitle {
+  text-align: left;
+  color: #6a696c;
+}
+.cid-sc164HWec1 {
+  background-image: url("../../../assets/images/desen-5-1370x866.jpeg");
+}
+.cid-sc164HWec1 .mbr-section-title {
+  color: #000000;
+  text-align: right;
+}
+.cid-sc164HWec1 .mbr-text,
+.cid-sc164HWec1 .mbr-section-btn {
+  color: #353535;
+  text-align: right;
+}
+.cid-sc164HWec1 .mbr-section-title DIV {
+  text-align: left;
+}
+.cid-sc164HWec1 .mbr-section-subtitle {
+  text-align: left;
+  color: #000000;
+}
+.cid-sc1ecbtKsV {
+  overflow-x: hidden !important;
+}
+.cid-sc1ecbtKsV .mbr-section-title {
+  color: #283742;
+  text-align: right;
+}
+.cid-sc1ecbtKsV .mbr-section-title span {
+  color: #e43f3f;
+}
+.cid-sc1ecbtKsV .mbr-text {
+  color: #888888;
+  letter-spacing: 5px;
+  font-weight: 100;
+  text-align: right;
+}
+.cid-sc1ecbtKsV .scroll-wrapper {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: absolute;
+  background-repeat: repeat;
+  z-index: 0;
+  -webkit-animation-duration: 17s !important;
+  animation-duration: 17s;
+  background-color: #ffffff;
+}
+.cid-sc1ecbtKsV .scroll-wrapper.second {
+  left: calc(100% - 1px);
+}
+.cid-sc1ecbtKsV .mbr-overlay {
+  z-index: 1;
+}
+.cid-sc1ecbtKsV .block-content {
+  z-index: 2;
+}
+@keyframes scroll-wrapper {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+@-webkit-keyframes scroll-wrapper {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+@-moz-keyframes scroll-wrapper {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+@-o-keyframes scroll-wrapper {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+.cid-sc1ecbtKsV .mbr-text DIV {
+  text-align: right;
+}
+.cid-sc1etzezrv {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-image: url("../../../assets/images/6.-fetita-perfecta-pentru-site-1190x940.jpeg");
+}
+.cid-sc1etzezrv .mbr-section-title {
+  color: #c3c3c3;
+  text-align: right;
+}
+.cid-sc1etzezrv .mbr-text,
+.cid-sc1etzezrv .mbr-section-btn {
+  color: #ffffff;
+  text-align: right;
+}
+.cid-sc1etzezrv .mbr-section-title DIV {
+  text-align: left;
+}
+.cid-sc1etzezrv .mbr-section-subtitle {
+  text-align: left;
+  color: #6a696c;
 }
