@@ -1640,22 +1640,22 @@ blockquote {
 .cid-sbVrg1nQ3Q .mbr-section-subtitle DIV {
   text-align: right;
 }
-.cid-sc0RhOKERA {
-  background-image: url("../../../assets/images/5.-copilul-plutitor-pentru-site-2000x2032.jpeg");
+.cid-scK924j2Ra {
+  background-image: url("../../../assets/images/6.-copilul-plutitor-pentru-site-2000x1101.jpeg");
 }
-.cid-sc0RhOKERA .mbr-section-title {
+.cid-scK924j2Ra .mbr-section-title {
   color: #000000;
   text-align: right;
 }
-.cid-sc0RhOKERA .mbr-text,
-.cid-sc0RhOKERA .mbr-section-btn {
+.cid-scK924j2Ra .mbr-text,
+.cid-scK924j2Ra .mbr-section-btn {
   color: #ffffff;
   text-align: right;
 }
-.cid-sc0RhOKERA .mbr-section-title DIV {
+.cid-scK924j2Ra .mbr-section-title DIV {
   text-align: left;
 }
-.cid-sc0RhOKERA .mbr-section-subtitle {
+.cid-scK924j2Ra .mbr-section-subtitle {
   text-align: left;
   color: #444345;
 }
@@ -1676,7 +1676,7 @@ blockquote {
 }
 .cid-sc1cjIsyNx .mbr-section-subtitle {
   text-align: left;
-  color: #6a696c;
+  color: #444345;
 }
 .cid-sc164HWec1 {
   background-image: url("../../../assets/images/desen-5-1370x866.jpeg");
@@ -1797,5 +1797,67 @@ blockquote {
 }
 .cid-sc1etzezrv .mbr-section-subtitle {
   text-align: left;
-  color: #6a696c;
+  color: #000000;
+}
+.cid-scKF0SiCWb {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #f5f7fd;
+}
+.cid-scKF0SiCWb .row {
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.cid-scKF0SiCWb .text-black {
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+.cid-scKF0SiCWb .btn {
+  margin-bottom: 2rem;
+}
+.cid-scKF0SiCWb .mbr-text {
+  color: #444;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+.cid-scKF0SiCWb .social-list {
+  -webkit-justify-content: center;
+  justify-content: center;
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 25px;
+  list-style: none;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.cid-scKF0SiCWb .social-list .mbr-iconfont-social {
+  font-size: 2rem;
+  color: black;
+}
+.cid-scKF0SiCWb .social-list .soc-item {
+  margin: 0 .5rem;
+}
+.cid-scKF0SiCWb .social-list a {
+  margin: 0;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+.cid-scKF0SiCWb .social-list a:hover {
+  opacity: .4;
+}
+@media (max-width: 767px) {
+  .cid-scKF0SiCWb .social-list {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 575px) {
+  .cid-scKF0SiCWb .mbr-text {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+.cid-scKF0SiCWb .links {
+  color: #232323;
+  text-align: center;
 }
