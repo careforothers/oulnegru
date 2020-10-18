@@ -54,7 +54,7 @@
     "uniqCompNum": 57,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/1.-copilul-din-mijlocul-lumii-1-128x128-1.png",
+    "favicon": false,
     "cssOptimize": false,
     "lazyLoad": false,
     "lazyType": "nothing",
