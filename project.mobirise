@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page1.html",
+    "currentPage": "inde.html",
     "theme": {
       "name": "newsm4",
       "title": "NewsM4",
@@ -527,14 +527,14 @@
             "theme": "boundary",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/entered-heart-cu-rou-poate-650x360.jpg",
+                "image": "@PROJECT_PATH@/assets/images/erotical-and-political-dreams-during-covid-parliament-building-650x360.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
-                "src": "@PROJECT_PATH@/assets/images/entered%20heart%20cu%20ro%C8%99u%20poate-1760x1116.jpeg",
-                "tooltip": "@PROJECT_PATH@/assets/images/entered-heart-cu-rou-poate-85x48.png",
+                "src": "@PROJECT_PATH@/assets/images/erotical%20and%20political%20dreams%20during%20covid%20parliament%20building-2000x2151.jpeg",
+                "tooltip": "@PROJECT_PATH@/assets/images/erotical-and-political-dreams-during-covid-parliament-building-85x48.png",
                 "title": "title 3",
                 "text": "text 3",
-                "active": true,
+                "active": false,
                 "alt": ""
               },
               {
@@ -545,7 +545,7 @@
                 "tooltip": "@PROJECT_PATH@/assets/images/vise-erotice-casa-poporului-iar-85x48.png",
                 "title": "title 3",
                 "text": "text 3",
-                "active": false,
+                "active": true,
                 "alt": ""
               },
               {
@@ -571,11 +571,11 @@
                 "alt": ""
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/jocuri-i-poveti-despre-2000x1228.jpg",
+                "image": "@PROJECT_PATH@/assets/images/games-and-stories-about-organic-cooperation-650x360.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
-                "src": "@PROJECT_PATH@/assets/images/what%20is%20next%20warning%20to%20humanity-1568x944.jpeg",
-                "tooltip": "@PROJECT_PATH@/assets/images/what-is-next-warning-to-humanity-85x48.png",
+                "src": "@PROJECT_PATH@/assets/images/games%20and%20stories%20about%20organic%20cooperation-2000x1221.jpeg",
+                "tooltip": "@PROJECT_PATH@/assets/images/games-and-stories-about-organic-cooperation-85x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": false,
